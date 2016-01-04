@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="pt_BR" ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tadeu Valentt">
+    <title>Marlon Raphael</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/its-me.css">
+  </head>
+
+  <body>
+    <ng-view></ng-view>
+  </body>
+
+  <script type="text/ng-template" id="not_found.html">
+    <div class="pure-g container text-center">
+      <div class="pure-u-1">
+      <h2 class="m-t-g">You may be Lost</h2>
+      <p>But don't be afraid, getting lost is just another way of saying 'going exploring.</p>
+      </div>
+    </div>
+  </script>
+
+  <script type="text/ng-template" id="resume.html">
+    <div ng-if="vm.resume" class="container">
+      <div>
+        <aside class="col-md-4">
+          <header class="m-b">
+            <h1>
+              <span id="name">Marlon </span> <span id="last-name">Raphael</span>
+            </h1>
+
+            <img ng-if="vm.resume.seal" id="zce" class="hidden visible-md" ng-src="{{vm.resume.seal}}"/>
+            <br>
+            <p class="visible-md">
+              <i class="fa fa-lg fa-github"></i> <a href="https://github.com/raphael27atm/" target="_black"> github.com/raphael27atm</a>
+            </p>
+            <p class="visible-md">
+              <i class="fa fa-lg fa-envelope-o"></i>
+              <a href="mailto:raphael27atm@gmail.com?subject=feedback" "email me"> raphael27atm@gmail.com</a>
+            </p>
+            <p class="visible-md">
+              <i class="fa fa-lg fa-mobile"></i> +55 85 98918-0712
+
+            </p>
+          </header>
+
+          <div class="m-b">
+            <h2 ng-bind="vm.resume.about_title"></h2>
+
+            <p ng-bind-html="vm.resume.about|to_trusted"></p>
+          </div>
+
+          <div>
+            <h2 ng-bind="vm.resume.highlights_title"></h2>
+            <ul class="highlights bullets m-b">
+              <li ng-repeat="highlight in vm.resume.highlights" ng-bind="highlight"></li>
+            </ul>
+          </div>
+
+          <div class="hidden visible-md">
+            <h2 ng-bind="vm.resume.contact_title"></h2>
+
+            <address>
+              raphael27atm@gmail.com<br>
+              +55 85 98918-0712<br>
+              Fortaleza, CE - Brasil<br>
+            </address>
+
+            <ul class="social">
+              <li>
+                <a href="http://github.com/raphael27atm ">
+                  <i class="fa fa-lg fa-github"></i>
+                  github.com/raphael27atm
+                </a>
+              </li>
+              <li>
+                <a href="https://br.linkedin.com/in/raphael27atm">
+                  <i class="fa fa-lg fa-linkedin"></i>
+                  /raphael27atm
+                </a>
+              </li>
+               <li>
+                <a>
+                  <i class="fa fa-lg fa-whatsapp"></i>
+                  + 55 85 98918-0712
+                </a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+
+        <div class="padd-20 col-md-8">
+          <button name="imprimir" class="bt-print btn btn-default btn-sm visible-md" onclick="window.print();"><i class="fa fa-lg fa-print"></i> Imprimir</button>
+          <div id="skills" class="m-b">
+            <h2 ng-bind="vm.resume.skills_title"></h2>
+
+            <div class="pure-g row">
+              <div class="col-md-6">
+                <h3 ng-bind="vm.resume.skills.development.title"></h3>
+                  <ul class="skills">
+                    <li class="progress" ng-repeat="skill in vm.resume.skills.development.items">
+                      <p style="width: {{skill.percent}}%;">
+                        <span ng-bind="skill.title" style="background: {{skill.color}};"></span>
+                      </p>
+                    </li>
+                  </ul>
+
+              </div>
+              <div class="col-md-6">
+                <h3 ng-bind="vm.resume.skills.design.title"></h3>
+                  <ul class="skills">
+                    <li class="progress" ng-repeat="skill in vm.resume.skills.design.items">
+                      <p style="width: {{skill.percent}}%;">
+                        <span ng-bind="skill.title" style="background: {{skill.color}};"></span>
+                      </p>
+                    </li>
+                  </ul>
+
+                <h3 ng-bind="vm.resume.skills.database.title"></h3>
+                  <ul class="skills">
+                    <li class="progress" ng-repeat="skill in vm.resume.skills.database.items">
+                      <p style="width: {{skill.percent}}%;">
+                        <span ng-bind="skill.title" style="background: {{skill.color}};"></span>
+                      </p>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+
+          <div id="knowledge" class="m-b">
+            <h2 ng-bind="vm.resume.tools_title"></h2>
+            <p>
+              <span class="badge" ng-repeat="tool in vm.resume.tools" ng-bind="tool"></span>
+            </p>
+          </div>
+
+          <div id="experience" class="m-b">
+            <h2 ng-bind="vm.resume.experiences_title"></h2>
+            <div ng-repeat="experience in vm.resume.experiences">
+              <h3 ng-bind="experience.company"></h3>
+              <p ng-bind-html="experience.description|to_trusted"></p>
+            </div>
+          </div>
+
+          <div class="pure-g row">
+            <div id="education" class="col-md-6">
+              <h2 ng-bind="vm.resume.education_title"></h2>
+              <ul class="bullets">
+                <li ng-repeat="formation in vm.resume.formations" ng-bind="formation"></li>
+              </ul>
+            </div>
+            <div id="languages" class="col-md-6">
+              <h2 ng-bind="vm.resume.languages_title"></h2>
+              <ul class="bullets">
+                <li ng-repeat="language in vm.resume.languages" ng-bind="language"></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="hidden-md m-t">
+            <h2 ng-bind="vm.resume.contact_title"></h2>
+
+            <address>
+              raphael27atm@gmail@gmail.com<br>
+              +55 85 98918-0712<br>
+              Fortaleza, CE - Brasil<br>
+            </address>
+
+            <ul class="social">
+              <li>
+                <a href="http://github.com/raphael27atm">
+                  <i class="fa fa-lg fa-github"></i>
+                  github.com/raphael27atm
+                </a>
+              </li>
+              <li>
+                <a href="https://br.linkedin.com/in/raphael27atm">
+                  <i class="fa fa-lg fa-linkedin"></i>
+                  linkedin.com/in/raphael27atm
+                </a>
+              </li>
+               <li>
+                <a>
+                  <i class="fa fa-lg fa-whatsapp"></i>
+                  + 55 85 98918-0712
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-route.js"></script>
+  <script src="../js/its-me.js"></script>
+</html>

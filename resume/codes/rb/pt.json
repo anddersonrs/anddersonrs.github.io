@@ -1,0 +1,135 @@
+{
+  "about_title": "Sobre mim",
+  "about": "Sou um desenvolvedor web e mobile com mais de 3 anos de experiência em Ruby, Php (Wordpress e Magento) e AngularJs. Eu tenho trabalhado no desenvolvimento de soluções para startups, utilizando o framework Ruby on Rails como backend e AngularJS como frontend.<br><br>Sou focado e tento sempre alcançar os melhores resultados. Eu adoro trabalhar em projetos diferentes, vivo em contante apredizado, apredendo a cada dia algo novo para produzir soluções eficazes.",
+  "highlights_title": "Qualidades",
+  "highlights": [
+      "Sigo boas práticas de desenvolvimento",
+      "Habilidades sólidas em refatoração",
+      "Super confortável em desenvolver front-end ou back-end",
+      "Mais de 3 anos de experiência com home office",
+      "Escrevo um código limpo e reutilizável",
+      "Sempre disposto a ensinar e muito mais à aprender",
+      "Criativo e ágil na solução de problemas"
+  ],
+  "contact_title": "Entre em contato",
+  "skills_title": "Habilidades",
+  "skills": {
+    "development": {
+          "title": "Desenvolvimento",
+          "items": [
+              {
+                  "percent": 75,
+                  "color": "#94A3A8",
+                  "title": "Ruby"
+              },
+              {
+                  "percent": 70,
+                  "color": "#94A3A8",
+                  "title": "Javascript"
+              },
+             {
+                  "percent": 80,
+                  "color": "#94A3A8",
+                  "title": "Ruby on Rails"
+              },
+              {
+                  "percent": 50,
+                  "color": "#94A3A8",
+                  "title": "Node"
+              },
+              {
+                  "percent": 60,
+                  "color": "#94A3A8",
+                  "title": "Express"
+              },
+              {
+                  "percent": 70,
+                  "color": "#94A3A8",
+                  "title": "AngularJs"
+              }
+          ]
+      },
+    "design": {
+          "title": "Design",
+          "items": [
+              {
+                  "percent": 80,
+                  "color": "#39add1",
+                  "title": "Html5"
+              },
+              {
+                  "percent": 80,
+                  "color": "#39add1",
+                  "title": "Css3"
+              },
+              {
+                  "percent": 75,
+                  "color": "#39add1",
+                  "title": "Photoshop"
+              }
+          ]
+      },
+    "database": {
+          "title": "Databases",
+          "items": [
+              {
+                  "percent": 70,
+                  "color": "#BA7ACD",
+                  "title": "PostgreSQL"
+              },
+              {
+                  "percent": 75,
+                  "color": "#BA7ACD",
+                  "title": "MySql"
+              },
+              {
+                  "percent": 65,
+                  "color": "#BA7ACD",
+                  "title": "MongoDb"
+              }
+          ]
+      }
+  },
+  "tools_title": "Conhecimentos & Ferramentas",
+  "tools": [
+  		"BDD & TDD",
+      "Scrum",
+      "Unix",
+      "RSpec",
+      "Minitest",
+      "Gulp",
+      "Heroku",
+      "Amazon S3/EC2",
+      "Digital Ocean",
+      "Functional Programing",
+      "MVC",
+      "Git",
+      "Ionic",
+      "Continuous Integration & Delivery",
+      "Capybara"
+  ],
+  "experiences_title": "Experiência",
+  "experiences": [
+      {
+          "company": "Seção Web  2012 - atualmente",
+          "description": "Atuei na criação e desenvolvimento web de um sistema de Ouvidorias, que permite o usuários criar manifestações de alguma ouvidoria especifica e o Ouvidor adiministrar todas as manifestações, encaminhando ao responsável, responder como em um sistema de helpdesk.<br><br>Também no desenvolvimento de um sistema de marcação de consulta de médicos, ao qual o usuário buscava um médico de determinado área usando sua Geolocalização."
+      },
+      {
+          "company": "Noix 2012",
+          "description": "Trabalhei no desenvolvimento loja virtuais e site intitucionais<br><br>"
+      },
+      {
+          "company": "Código Digital 2011",
+          "description": "Trabalhei como Webdesigner, produzindo sites em Wordpress e lojas virtuais em Magento.<br><br>Nela tive a oportunidade de trabalhar em projetos dos mais váriados seguimentos."
+      }
+  ],
+  "education_title": "Educação",
+  "formation_title": "Formação",
+  "formations": [
+    "Superior Completo"
+  ],
+  "languages_title": "Linguas",
+  "languages": [
+      "Ingles Técnico"
+  ]
+}
