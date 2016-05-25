@@ -1,15 +1,13 @@
 {
   "about_title": "Sobre mim",
-  "about": "Sou um desenvolvedor web e mobile com mais de 3 anos de experiência em Ruby, Php (Wordpress e Magento) e AngularJs. Eu tenho trabalhado no desenvolvimento de soluções para startups, utilizando o framework Ruby on Rails como backend e AngularJS como frontend.<br><br>Sou focado e tento sempre alcançar os melhores resultados. Adoro trabalhar em projetos diferentes, vivo em constante apredizado, apredendo a cada dia algo novo para produzir soluções eficazes.",
+  "about": "Sou um desenvolvedor web e mobile com mais de 3 anos de experiência em Ruby e AngularJs. Eu tenho trabalhado no desenvolvimento de soluções para startups, utilizando o framework Ruby on Rails como backend e AngularJS como frontend.</br> Adoro trabalhar em projetos diferentes, vivo em constante apredizado, apredendo a cada dia algo novo para produzir soluções eficazes.",
   "highlights_title": "Qualidades",
   "highlights": [
       "Sigo boas práticas de desenvolvimento",
       "Habilidades sólidas em refatoração",
       "Super confortável em desenvolver front-end ou back-end",
       "Mais de 3 anos de experiência com home office",
-      "Escrevo um código limpo e reutilizável",
-      "Sempre disposto a ensinar e muito mais à aprender",
-      "Criativo e ágil na solução de problemas"
+      "Escrevo um código limpo e reutilizável"
   ],
   "contact_title": "Entre em contato",
   "skills_title": "Habilidades",
@@ -96,8 +94,8 @@
       "Scrum",
       "Unix",
       "RSpec",
-      "Minitest",
       "Gulp",
+      "Capistrano",
       "Heroku",
       "Amazon S3/EC2",
       "Digital Ocean",
