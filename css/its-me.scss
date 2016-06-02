@@ -257,7 +257,6 @@ aside {
   .visible-md {
     display: block !important;
   }
-
   .hidden-md {
     display: none;
   }
@@ -290,7 +289,11 @@ aside {
   }
 }
 
-
+@media (max-width: 768px) {
+  header h1 {
+    margin: 0 0 20px;
+  }
+}
 @media print {
  .m-t {
     margin-top: 15px;
