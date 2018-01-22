@@ -1,12 +1,13 @@
 {
   "about_title": "Sobre mim",
-  "about": "Sou um desenvolvedor web e mobile com mais de 3 anos de experiência em Ruby e AngularJs. Eu tenho trabalhado no desenvolvimento de soluções para startups, utilizando o framework Ruby on Rails como backend e AngularJS como frontend.</br> Adoro trabalhar em projetos diferentes, vivo em constante apredizado, apredendo a cada dia algo novo para produzir soluções eficazes.",
+  "about": "Sou um desenvolvedor web e estudante de games digitais. </br> Adoro trabalhar em projetos diferentes, vivo em constante apredizado, apredendo a cada dia algo novo para produzir soluções eficazes.",
   "highlights_title": "Qualidades",
   "highlights": [
       "Sigo boas práticas de desenvolvimento",
-      "Habilidades sólidas em refatoração",
       "Adapto-me bem a situações adversas",
-      "Escrevo um código limpo e reutilizável"
+      "Escrevo um código limpo e reutilizável",
+      "Estou sempre a procura de conhecimento",
+      "Habilidades em refatoração"
   ],
   "contact_title": "Entre em contato",
   "skills_title": "Habilidades",
@@ -83,7 +84,12 @@
                   "percent": 70,
                   "color": "#BA7ACD",
                   "title": "MySql"
-              }
+              },
+              {
+                "percent": 50,
+                "color": "#BA7ACD",
+                "title": "PostgreSQL"
+            }
           ]
       }
   },
@@ -122,7 +128,7 @@
       },
       {
           "company": "Seção Web 2013",
-          "description": "Trabalhei como estagiário em programação web, produzindo sites e lojas em php com o Wordpress.<br><br>Nela tive a oportunidade de trabalhar em diversos projetos web."
+          "description": "Trabalhei como estagiário programando sites e lojas em php com o Wordpress.<br><br>Nela tive a oportunidade de trabalhar em diversos projetos web."
       }
   ],
   "education_title": "Educação",
