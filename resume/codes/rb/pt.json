@@ -5,8 +5,7 @@
   "highlights": [
       "Sigo boas práticas de desenvolvimento",
       "Habilidades sólidas em refatoração",
-      "Super confortável em desenvolver front-end ou back-end",
-      "Mais de 3 anos de experiência com home office",
+      "Adapto-me bem a situações adversas",
       "Escrevo um código limpo e reutilizável"
   ],
   "contact_title": "Entre em contato",
@@ -23,12 +22,17 @@
               {
                   "percent": 70,
                   "color": "#94A3A8",
-                  "title": "Java Web"
+                  "title": "JavaWeb"
               },
-             {
+              {
                   "percent": 65,
                   "color": "#94A3A8",
                   "title": "Android"
+              },
+              {
+                  "percent": 75,
+                  "color": "#94A3A8",
+                  "title": "Test Drive Development"
               },
               {
                   "percent": 65,
@@ -38,7 +42,12 @@
               {
                   "percent": 65,
                   "color": "#94A3A8",
-                  "title": "C#"
+                  "title": "Unity 3D / C#"
+              },
+              {
+                  "percent": 60,
+                  "color": "#94A3A8",
+                  "title": "Php"
               }
           ]
       },
@@ -98,28 +107,29 @@
       "Android Studio",
       "Activity",
       "Adapters", 
-      "Unity"
+      "Unity",
+      "Wordpress"
   ],
   "experiences_title": "Experiência",
   "experiences": [
       {
-          "company": "Seção Web  2012 - atualmente",
-          "description": "Atuei na criação e desenvolvimento web de um sistema de Ouvidorias, que permite o usuários criar manifestações de alguma ouvidoria especifica e o Ouvidor adiministrar todas as manifestações, encaminhando ao responsável, responder como em um sistema de helpdesk.<br><br>Também no desenvolvimento de um sistema de marcação de consulta de médicos, ao qual o usuário buscava um médico de determinado área usando sua Geolocalização."
+          "company": "ADL 2016 - atualmente",
+          "description": "Atuo no controle de informação de servidores windows e manutenção em sistema interno em php.<br><br>"
       },
       {
-          "company": "Noix 2012",
-          "description": "Atuei no desenvolvimento loja virtuais em magento e site intitucionais em wordpress.<br><br>"
+          "company": "APS 2014",
+          "description": "Atuei no desenvolvimento de um micro sistema para uso interno de cadastro e controle de clientes em php com framework laravel, e site intitucionais em wordpress.<br><br>"
       },
       {
-          "company": "Código Digital 2011",
-          "description": "Trabalhei como Webdesigner, produzindo sites em Wordpress e lojas virtuais em Magento.<br><br>Nela tive a oportunidade de trabalhar em projetos dos mais váriados seguimentos com maior foco em UX design."
+          "company": "Seção Web 2013",
+          "description": "Trabalhei como estagiário em programação web, produzindo sites e lojas em php com o Wordpress.<br><br>Nela tive a oportunidade de trabalhar em diversos projetos web."
       }
   ],
   "education_title": "Educação",
   "formation_title": "Formação",
   "formations": [
-    "Pós Graduação Concluindo",  
-    "Superior Completo"
+    "Pós Graduação: Desenvolvimento de Games Digitais - Concluindo",  
+    "Superior: Análise e Desenvolvimento de Sistemas - Concluido"
   ],
   "languages_title": "Linguas",
   "languages": [
