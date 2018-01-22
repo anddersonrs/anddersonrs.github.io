@@ -16,34 +16,29 @@
           "title": "Desenvolvimento",
           "items": [
               {
-                  "percent": 75,
+                  "percent": 85,
                   "color": "#94A3A8",
-                  "title": "Ruby"
+                  "title": "Java"
               },
               {
                   "percent": 70,
+                  "color": "#94A3A8",
+                  "title": "Java Web"
+              },
+             {
+                  "percent": 65,
+                  "color": "#94A3A8",
+                  "title": "Android"
+              },
+              {
+                  "percent": 65,
                   "color": "#94A3A8",
                   "title": "Javascript"
               },
-             {
-                  "percent": 80,
-                  "color": "#94A3A8",
-                  "title": "Ruby on Rails"
-              },
               {
-                  "percent": 50,
+                  "percent": 65,
                   "color": "#94A3A8",
-                  "title": "Node"
-              },
-              {
-                  "percent": 60,
-                  "color": "#94A3A8",
-                  "title": "Express"
-              },
-              {
-                  "percent": 70,
-                  "color": "#94A3A8",
-                  "title": "AngularJs"
+                  "title": "C#"
               }
           ]
       },
@@ -56,19 +51,19 @@
                   "title": "Html5"
               },
               {
-                  "percent": 65,
+                  "percent": 60,
                   "color": "#39add1",
                   "title": "Css3"
               },
               {
-                  "percent": 85,
+                  "percent": 90,
                   "color": "#39add1",
                   "title": "Photoshop"
               },
               {
-                "percent": 75,
+                "percent": 80,
                 "color": "#39add1",
-                "title": "Ilustrator"
+                "title": "Illustrator"
               }
           ]
       },
@@ -85,21 +80,25 @@
   },
   "tools_title": "Conhecimentos & Ferramentas",
   "tools": [
-  		"BDD & TDD",
+  		"TDD",
       "Scrum",
       "Unix",
-      "RSpec",
-      "Gulp",
-      "Capistrano",
-      "Heroku",
-      "Amazon S3/EC2",
-      "Digital Ocean",
-      "Functional Programing",
       "MVC",
+      "JDBC",
+      "JSP",
+      "JPA",
+      "Hibernate",
+      "ORM",
+      "Criteria",
+      "C3p0",
+      "Functional Programing",
+      "Mock Objects",
       "Git",
-      "Ionic",
-      "Continuous Integration & Delivery",
-      "Capybara"
+      "Refactoring",
+      "Android Studio",
+      "Activity",
+      "Adapters", 
+      "Unity"
   ],
   "experiences_title": "Experiência",
   "experiences": [
@@ -119,6 +118,7 @@
   "education_title": "Educação",
   "formation_title": "Formação",
   "formations": [
+    "Pós Graduação Concluindo",  
     "Superior Completo"
   ],
   "languages_title": "Linguas",
