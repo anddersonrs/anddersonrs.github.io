@@ -1,9 +1,9 @@
 # Site settings
-title: Raphael27atm
-email: raphael27atm@gmail.com
+title: anddersonrs  
+email: anddersonrds@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://raphael27atm.github.io"
+url: "http://anddersonrs.github.io"
 url: "" # the base hostname & protocol for your site
 
 twitter_username:
