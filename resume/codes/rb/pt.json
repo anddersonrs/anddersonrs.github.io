@@ -1,6 +1,6 @@
 {
   "about_title": "Sobre mim",
-  "about": "Sou um desenvolvedor web e estudante de games digitais. </br> Adoro trabalhar em projetos diferentes, vivo em constante apredizado, apredendo a cada dia algo novo para produzir soluções eficazes.",
+  "about": "Sou um desenvolvedor web e estudante de games digitais. </br> Adoro trabalhar em projetos diferentes, vivo em constante aprendizado, conhecendo a cada dia algo novo para produzir soluções eficazes.",
   "highlights_title": "Qualidades",
   "highlights": [
       "Sigo boas práticas de desenvolvimento",
@@ -123,7 +123,7 @@
       },
       {
           "company": "APS 2014 - 2016",
-          "description": "Atuei no desenvolvimento de um micro sistema para uso interno de cadastro e controle de clientes em php com framework laravel, e site intitucionais em wordpress.<br><br>"
+          "description": "Atuei no desenvolvimento de um micro sistema para uso interno de cadastro e controle de clientes em php com framework laravel, e site institucionais em wordpress.<br><br>"
       },
       {
           "company": "Seção Web 2013 - 2014",
