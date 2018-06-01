@@ -1,143 +1,149 @@
 {
-    "about_title": "Sobre mim",
-    "about": "Sou um desenvolvedor web e estudante de games digitais. </br> Adoro trabalhar em projetos diferentes, vivo em constante aprendizado, conhecendo a cada dia algo novo para produzir soluções eficazes.",
-    "highlights_title": "Qualidades",
-    "highlights": [
-        "Sigo boas práticas de desenvolvimento",
-        "Adapto-me bem a situações adversas",
-        "Escrevo um código limpo e reutilizável",
-        "Estou sempre a procura de conhecimento",
-        "Habilidades em refatoração"
-    ],
-    "contact_title": "Entre em contato",
-    "skills_title": "Habilidades",
-    "skills": {
-        "development": {
-            "title": "Desenvolvimento",
-            "items": [
-                {
-                    "percent": 85,
-                    "color": "#94A3A8",
-                    "title": "Java"
-                },
-                {
-                    "percent": 70,
-                    "color": "#94A3A8",
-                    "title": "JavaWeb"
-                },
-                {
-                    "percent": 65,
-                    "color": "#94A3A8",
-                    "title": "Android"
-                },
-                {
-                    "percent": 75,
-                    "color": "#94A3A8",
-                    "title": "Test Drive Development"
-                },
-                {
-                    "percent": 50,
-                    "color": "#94A3A8",
-                    "title": "Javascript"
-                },
-                {
-                    "percent": 65,
-                    "color": "#94A3A8",
-                    "title": "Unity 3D / C#"
-                },
-                {
-                    "percent": 60,
-                    "color": "#94A3A8",
-                    "title": "Php"
-                }
-            ]
+  "about_title": "Sobre mim",
+  "about":
+    "Sou um desenvolvedor web e estudante de games digitais. </br> Adoro trabalhar em projetos diferentes, vivo em constante aprendizado, conhecendo a cada dia algo novo para produzir soluções eficazes.",
+  "highlights_title": "Qualidades",
+  "highlights": [
+    "Sigo boas práticas de desenvolvimento",
+    "Adapto-me bem a situações adversas",
+    "Escrevo um código limpo e reutilizável",
+    "Estou sempre a procura de conhecimento",
+    "Habilidades em refatoração"
+  ],
+  "contact_title": "Entre em contato",
+  "skills_title": "Habilidades",
+  "skills": {
+    "development": {
+      "title": "Desenvolvimento",
+      "items": [
+        {
+          "percent": 85,
+          "color": "#94A3A8",
+          "title": "Java"
         },
-        "design": {
-            "title": "Design",
-            "items": [
-                {
-                    "percent": 70,
-                    "color": "#39add1",
-                    "title": "Html5"
-                },
-                {
-                    "percent": 60,
-                    "color": "#39add1",
-                    "title": "Css3"
-                },
-                {
-                    "percent": 90,
-                    "color": "#39add1",
-                    "title": "Photoshop"
-                },
-                {
-                    "percent": 80,
-                    "color": "#39add1",
-                    "title": "Illustrator"
-                }
-            ]
+        {
+          "percent": 70,
+          "color": "#94A3A8",
+          "title": "JavaWeb"
         },
-        "database": {
-            "title": "Databases",
-            "items": [
-                {
-                    "percent": 70,
-                    "color": "#BA7ACD",
-                    "title": "MySql"
-                },
-                {
-                    "percent": 50,
-                    "color": "#BA7ACD",
-                    "title": "PostgreSQL"
-                }
-            ]
+        {
+          "percent": 65,
+          "color": "#94A3A8",
+          "title": "Android"
+        },
+        {
+          "percent": 75,
+          "color": "#94A3A8",
+          "title": "Test Drive Development"
+        },
+        {
+          "percent": 70,
+          "color": "#94A3A8",
+          "title": "Javascript"
+        },
+        {
+          "percent": 65,
+          "color": "#94A3A8",
+          "title": "Unity 3D / C#"
+        },
+        {
+          "percent": 60,
+          "color": "#94A3A8",
+          "title": "Php"
         }
+      ]
     },
-    "tools_title": "Conhecimentos & Ferramentas",
-    "tools": [
-        "TDD",
-        "Scrum",
-        "Unix",
-        "MVC",
-        "JDBC",
-        "JSP",
-        "JPA",
-        "Hibernate",
-        "ORM",
-        "Criteria",
-        "C3p0",
-        "Mock Objects",
-        "Git",
-        "Refactoring",
-        "Android Studio",
-        "Activity",
-        "Adapters", 
-        "Unity",
-        "Wordpress"
-    ],
-    "experiences_title": "Experiência",
-    "experiences": [
+    "design": {
+      "title": "Design",
+      "items": [
         {
-            "company": "ADL 2016 - atualmente",
-            "description": "Atuo no controle de informação de servidores windows e manutenção em sistema interno em php.<br><br>"
+          "percent": 70,
+          "color": "#39add1",
+          "title": "Html5"
         },
         {
-            "company": "APS 2014 - 2016",
-            "description": "Atuei no desenvolvimento de um micro sistema para uso interno de cadastro e controle de clientes em php com framework laravel, e site institucionais em wordpress.<br><br>"
+          "percent": 60,
+          "color": "#39add1",
+          "title": "Css3"
         },
         {
-            "company": "Seção Web 2013 - 2014",
-            "description": "Trabalhei como estagiário programando sites e lojas em php com o Wordpress. Nela tive a oportunidade de trabalhar em diversos projetos web."
+          "percent": 90,
+          "color": "#39add1",
+          "title": "Photoshop"
+        },
+        {
+          "percent": 80,
+          "color": "#39add1",
+          "title": "Illustrator"
         }
-    ],
-    "education_title": "Educação",
-    "formation_title": "Formação",
-    "formations": [
-        "Pós Graduação: Desenvolvimento de Games Digitais - Concluindo",  
-        "Superior: Análise e Desenvolvimento de Sistemas - Concluido"
-    ],
-    "languages_title": "Linguas",
-    "languages": [
-        "Ingles Técnico"
-    ]
+      ]
+    },
+    "database": {
+      "title": "Databases",
+      "items": [
+        {
+          "percent": 70,
+          "color": "#BA7ACD",
+          "title": "MySql"
+        },
+        {
+          "percent": 50,
+          "color": "#BA7ACD",
+          "title": "PostgreSQL"
+        }
+      ]
+    }
+  },
+  "tools_title": "Conhecimentos & Ferramentas",
+  "tools": [
+    "ES6",
+    "React",
+    "Redux",
+    "Flex",
+    "TDD",
+    "Scrum",
+    "Unix",
+    "MVC",
+    "JDBC",
+    "JSP",
+    "JPA",
+    "Hibernate",
+    "ORM",
+    "Criteria",
+    "C3p0",
+    "Mock Objects",
+    "Git",
+    "Refactoring",
+    "Android Studio",
+    "Activity",
+    "Adapters",
+    "Unity",
+    "Wordpress"
+  ],
+  "experiences_title": "Experiência",
+  "experiences": [
+    {
+      "company": "ADL 2016 - atualmente",
+      "description":
+        "Atuo no controle de informação de servidores windows e manutenção em sistema interno em php.<br><br>"
+    },
+    {
+      "company": "APS 2014 - 2016",
+      "description":
+        "Atuei no desenvolvimento de um micro sistema para uso interno de cadastro e controle de clientes em php com framework laravel, e site institucionais em wordpress.<br><br>"
+    },
+    {
+      "company": "Seção Web 2013 - 2014",
+      "description":
+        "Trabalhei como estagiário programando sites e lojas em php com o Wordpress. Nela tive a oportunidade de trabalhar em diversos projetos web."
+    }
+  ],
+  "education_title": "Educação",
+  "formation_title": "Formação",
+  "formations": [
+    "Pós Graduação: Desenvolvimento de Games Digitais - Concluindo",
+    "Superior: Análise e Desenvolvimento de Sistemas - Concluido"
+  ],
+  "languages_title": "Linguas",
+  "languages": ["Ingles"]
 }
