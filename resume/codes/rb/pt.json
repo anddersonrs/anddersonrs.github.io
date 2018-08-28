@@ -17,7 +17,7 @@
       "title": "Desenvolvimento",
       "items": [
         {
-          "percent": 85,
+          "percent": 80,
           "color": "#94A3A8",
           "title": "Java"
         },
@@ -29,17 +29,27 @@
         {
           "percent": 65,
           "color": "#94A3A8",
-          "title": "Android"
+          "title": "Test Drive Development"
         },
         {
-          "percent": 75,
+          "percent": 80,
           "color": "#94A3A8",
-          "title": "Test Drive Development"
+          "title": "Javascript"
         },
         {
           "percent": 70,
           "color": "#94A3A8",
-          "title": "Javascript"
+          "title": "NodeJS"
+        },
+        {
+          "percent": 70,
+          "color": "#94A3A8",
+          "title": "React"
+        },
+        {
+          "percent": 50,
+          "color": "#94A3A8",
+          "title": "React Native"
         },
         {
           "percent": 65,
@@ -97,7 +107,11 @@
   "tools_title": "Conhecimentos & Ferramentas",
   "tools": [
     "ES6",
+    "Node",
     "React",
+    "React Native",
+    "Npm",
+    "Yarn",
     "Redux",
     "Flex",
     "TDD",
@@ -123,7 +137,7 @@
   "experiences_title": "Experiência",
   "experiences": [
     {
-      "company": "ADL 2016 - atualmente",
+      "company": "ADL 2016 - 2018",
       "description":
         "Atuo no controle de informação de servidores windows e manutenção em sistema interno em php.<br><br>"
     },
