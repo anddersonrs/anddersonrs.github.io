@@ -1,7 +1,6 @@
 {
   "about_title": "Sobre mim",
-  "about":
-    "Sou um desenvolvedor web e estudante de games digitais. </br> Adoro trabalhar em projetos diferentes, vivo em constante aprendizado, conhecendo a cada dia algo novo para produzir soluções eficazes.",
+  "about": "Sou um desenvolvedor web e estudante de games digitais. </br> Adoro trabalhar em projetos diferentes, vivo em constante aprendizado, conhecendo a cada dia algo novo para produzir soluções eficazes.",
   "highlights_title": "Qualidades",
   "highlights": [
     "Sigo boas práticas de desenvolvimento",
@@ -32,17 +31,17 @@
           "title": "Test Drive Development"
         },
         {
-          "percent": 80,
+          "percent": 70,
           "color": "#94A3A8",
           "title": "Javascript"
         },
         {
-          "percent": 70,
+          "percent": 60,
           "color": "#94A3A8",
           "title": "NodeJS"
         },
         {
-          "percent": 70,
+          "percent": 65,
           "color": "#94A3A8",
           "title": "React"
         },
@@ -138,18 +137,15 @@
   "experiences": [
     {
       "company": "ADL 2016 - 2018",
-      "description":
-        "Atuo no controle de informação de servidores windows e manutenção em sistema interno em php.<br><br>"
+      "description": "Atuei no controle de informação de servidores e manutenção em sistema interno em php.<br><br>"
     },
     {
       "company": "APS 2014 - 2016",
-      "description":
-        "Atuei no desenvolvimento de um micro sistema para uso interno de cadastro e controle de clientes em php com framework laravel, e site institucionais em wordpress.<br><br>"
+      "description": "Atuei no desenvolvimento de um micro sistema para uso interno de cadastro e controle de clientes em php com framework laravel, e site institucionais em wordpress.<br><br>"
     },
     {
       "company": "Seção Web 2013 - 2014",
-      "description":
-        "Trabalhei como estagiário programando sites e lojas em php com o Wordpress. Nela tive a oportunidade de trabalhar em diversos projetos web."
+      "description": "Trabalhei como estagiário programando sites e lojas em php com o Wordpress. Nela tive a oportunidade de trabalhar em diversos projetos web."
     }
   ],
   "education_title": "Educação",
